@@ -12,11 +12,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('remoteapp1/homeModule').then((module) => module.HomeModule),
   },
-  {
-    path: 'mfe2',
-    loadChildren: () =>
-      import('remoteapp2/homeModule').then((module) => module.HomeModule),
-  },
+  // {
+  //   path: 'mfe2',
+  //   loadChildren: () =>
+  //     import('remoteapp2/homeModule').then((module) => module.HomeModule),
+  // },
 ];
 
 @NgModule({
